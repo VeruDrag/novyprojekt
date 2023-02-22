@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 1040px;
+	margin: 0 auto;
+    font-size: 15px;
+}
+header {
+    background-image: url(img/computer-2982270.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main {
+    background-color: rgb(220, 228, 235);
+    padding: 10px;
+    background: rgb(147,147,147);
+background: radial-gradient(circle, rgba(147,147,147,0.05) 0%, rgba(96,145,204,0.20) 93%);
+}
+
+h1 {
+    color: black;
+    text-decoration: solid;
+    text-align: center;
+    font-size: 45px;
+    margin: 10px;
+}
+h2 {
+    color: brown;
+}
+.info a:link,
+.info a:active {
+    text-decoration: none;
+    color: black;
+}
+.info a:hover,
+.info a:active {
+    color: brown;
+}
+.profile {
+    float: right;
+    width: 15%;
+    border: 1px solid black;
+}
+.info .fb,
+.info .ig {
+    width: 50px;
+    height: 50px;
+    float: none;  
+}
+.fb {
+    max-height: 41px;
+    max-width: 46px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+.clearfix {zoom: 1}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+    height: 0;
+}
