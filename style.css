@@ -5,18 +5,25 @@ body {
     width: 1040px;
 	margin: 0 auto;
     font-size: 15px;
+	
 }
 header {
     background-image: url(img/computer-2982270.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+	 border: 1px solid #8b8ba2;
+	box-shadow: 2px 1px 5px #888;
+	border-radius: 15px;
 }
 main {
     background-color: rgb(220, 228, 235);
     padding: 10px;
     background: rgb(147,147,147);
 background: radial-gradient(circle, rgba(147,147,147,0.05) 0%, rgba(96,145,204,0.20) 93%);
+	 border: 1px solid #8b8ba2;
+	box-shadow: 2px 2px 5px #888;
+	border-radius: 15px;
 }
 
 h1 {
@@ -61,7 +68,4 @@ h2 {
 	display: table;
 	clear: both;
     height: 0;
-}
-footer p{
-    color: antiquewhite;
 }
